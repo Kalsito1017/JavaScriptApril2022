@@ -1,11 +1,7 @@
-function ReadText(index){
-    let index = 0;
-    while(true){
-        let str = input[index];
-        index++;
-        if(str === "Stop"){
-            break;
-        }
-        console.log(str);
+function ReadingText(input){
+    let text = String(input[0]);
+    while(text !== "Stop"){
+        console.log(text);
+        text = String(input[1]);
     }
 }
