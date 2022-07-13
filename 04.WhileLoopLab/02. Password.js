@@ -3,7 +3,7 @@ function Password(input){
      let Password = input[1];
      let data = input[2];
      let index = 3;
-     while(data != password)
+     while(data !== password)
      {
          data = input[index];
          index++;
